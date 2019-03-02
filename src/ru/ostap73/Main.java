@@ -7,18 +7,16 @@ import java.util.Formatter;
 public class Main {
 
     public static void main(String[] args) {
-        //Person mister = new Person(180, "mkister", new Date());
-        //System.out.println(mister.hashCode());
+        Array a = new MyArray();
+        System.out.println(a.add(3));
+        System.out.println(a.add(3));
+        System.out.println(a.add(3));
 
-        new Computer() {
-          void supercomp() {
-              this.i7.start();
-              this.trnsfer.start();
-              System.out.println("memory=");
-          }
-        }.forEach( o->{ o.supercomp(); o.supercomp(); } );
-
-        Collections.singleton( new Computer(){ void supercomp(){} } )
-                .forEach( o->{ o.supercomp(); o.supercomp(); } );
+        Array b = new Array_1();
+        System.out.println("--");
+        System.out.println(b.add(100));
+        System.out.println(b.add(200));
+        System.out.println(b.add(300));
+        System.out.println(b.get(2));
     }
 }
