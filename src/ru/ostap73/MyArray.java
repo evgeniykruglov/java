@@ -8,6 +8,8 @@ public class MyArray implements Array {
     public int get(int i) {
         return a[i];
     }
+
+
     @Override
     public boolean add(int val) {
         if (size != a.length) {
