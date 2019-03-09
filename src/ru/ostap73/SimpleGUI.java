@@ -42,5 +42,8 @@ public class SimpleGUI extends JFrame{
         }
     }
 
-
+    public static void runner() {
+        SimpleGUI app = new SimpleGUI();
+        app.setVisible(true);
+    }
 }
